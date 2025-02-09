@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background-color: darksalmon;
+    text-align: center;
+    background-image: url(Imagen3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
